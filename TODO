@@ -1,0 +1,8 @@
+Getting the data from NSI:
+    ☐ Download the zip file in data folder, url -> http://www.nsi.bg/sites/default/files/files/EKATTE/Ekatte.zip
+    ☐ Unzip it
+    ☐ Read the Ekatte folder for file with name Ekatte_xlsx.zip
+    ☐ Extract Ekatte_xlsx.zip
+    ☐ Read folder Ekatte_xlsx
+    ☐ Main data file is named Ek_atte.xlsx
+    ☐ Entry one is the last update date --> check regulary for updates and changes by this date
