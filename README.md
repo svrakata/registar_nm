@@ -1,2 +1,2 @@
-# Списък с населените места на Република Бълггария -> Restful API and website for browsing
+# Списък с населените места на Република България -> Restful API and website for browsing
 

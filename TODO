@@ -7,6 +7,53 @@ Getting the data from NSI:
     ☐ Main data file is named Ek_atte.xlsx
     ☐ Entry one is the last update date --> check regulary for updates and changes by this date
 
+
+    
+
+
+
+
+
+    трябва да прочета всички файлове и да извлека данните
+
+    например ---> ekt_obl --> съдържа областите със съответните кодове
+
+
+    със сигурност --> entry община, entry населено място, 
+
+    модел област
+        {
+            id,
+        }
+
+    модел община
+    {
+        id
+    }
+
+    ALTITUDE   Char 1   - Надморска височина
+    Код        Групи (в метри)
+    1          до 49 вкл.
+    2          50 - 99 вкл.
+    3          100 - 199 вкл.
+    4          200 - 299 вкл.
+    5          300 - 499 вкл.
+    6          500 - 699 вкл.
+    7          700 - 999 вкл.
+    8          1000 и повече
+
+    модел населено място
+
+        {
+            id,
+            type: вид на населеното място (град, село или манастир),
+            name,
+            oblast --> Oblast,
+            altitude: kod
+
+        }
+
+
 pointers ---> 
 class to wrap operation over slice ---> 
 threading ---> go routines

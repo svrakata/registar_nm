@@ -1,13 +1,15 @@
 package main
 
+import "github.com/svrakata/ekatte_api/ekatte"
+
 func main() {
-	err := ExtractData()
+	err := ekatte.ExtractData()
 
 	if err != nil {
 		panic(err)
 	}
 
-	err = ParseEkatte()
+	err = ekatte.ParseEkatte()
 
 	if err != nil {
 		panic(err)
